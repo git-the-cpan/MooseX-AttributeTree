@@ -17,7 +17,8 @@ package MooseX::AttributeTree::Accessor;
 # ABSTRACT: Moose accessor role for inheritance through the object tree
 #---------------------------------------------------------------------
 
-our $VERSION = '0.03';
+our $VERSION = '0.06'; # VERSION
+# This file is part of MooseX-AttributeTree 0.06 (June 27, 2015)
 
 use MooseX::Role::Parameterized;
 
@@ -107,9 +108,9 @@ MooseX::AttributeTree::Accessor - Moose accessor role for inheritance through th
 
 =head1 VERSION
 
-This document describes version 0.03 of
-MooseX::AttributeTree::Accessor, released October 5, 2013
-as part of MooseX-AttributeTree version 0.05.
+This document describes version 0.06 of
+MooseX::AttributeTree::Accessor, released June 27, 2015
+as part of MooseX-AttributeTree version 0.06.
 
 =head1 DESCRIPTION
 
@@ -126,11 +127,11 @@ or through the web interface at
 L<< http://rt.cpan.org/Public/Bug/Report.html?Queue=MooseX-AttributeTree >>.
 
 You can follow or contribute to MooseX-AttributeTree's development at
-L<< http://github.com/madsen/moosex-attributetree >>.
+L<< https://github.com/madsen/moosex-attributetree >>.
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Christopher J. Madsen.
+This software is copyright (c) 2015 by Christopher J. Madsen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

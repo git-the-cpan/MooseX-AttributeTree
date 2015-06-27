@@ -17,8 +17,10 @@ package MooseX::AttributeTree;
 # ABSTRACT: Inherit attribute values like HTML+CSS does
 #---------------------------------------------------------------------
 
-our $VERSION = '0.05';
 use 5.008;
+
+our $VERSION = '0.06';
+# This file is part of MooseX-AttributeTree 0.06 (June 27, 2015)
 
 
 # Verify Moose version, but don't import because we're a Role
@@ -94,9 +96,9 @@ MooseX::AttributeTree - Inherit attribute values like HTML+CSS does
 
 =head1 VERSION
 
-This document describes version 0.05 of
-MooseX::AttributeTree, released October 5, 2013
-as part of MooseX-AttributeTree version 0.05.
+This document describes version 0.06 of
+MooseX::AttributeTree, released June 27, 2015
+as part of MooseX-AttributeTree version 0.06.
 
 =head1 SYNOPSIS
 
@@ -255,7 +257,7 @@ or through the web interface at
 L<< http://rt.cpan.org/Public/Bug/Report.html?Queue=MooseX-AttributeTree >>.
 
 You can follow or contribute to MooseX-AttributeTree's development at
-L<< http://github.com/madsen/moosex-attributetree >>.
+L<< https://github.com/madsen/moosex-attributetree >>.
 
 =head1 ACKNOWLEDGMENTS
 
@@ -265,7 +267,7 @@ L<http://www.mitsi.com>, who sponsored its development.
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Christopher J. Madsen.
+This software is copyright (c) 2015 by Christopher J. Madsen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
